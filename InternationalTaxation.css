@@ -1,0 +1,49 @@
+.body {
+    background-color: #f9f9f9;
+    display: grid;
+}
+
+.title {
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+}
+
+.content-1 {
+    background-color: white;
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+}
+
+
+.content-1, .content-2 p {
+    font-size: 20px;
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+.Solutions {
+    margin-left: 160px;
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+
+}
+
+.container {
+    display: flex;
+}
+
+.parent-container {
+    margin-left: 150px;
+}
+
+.box {
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+}

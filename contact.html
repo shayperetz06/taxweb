@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#includedContent").load("navigator.html");
+        });
+    </script>
+
+</head>
+<body>
+<div id="includedContent"></div>
+
+
+<div id="boxes">
+
+    <div class="offices">
+        <div class="info">
+            <h2>Our Offices</h2>
+            <p>Visit one of our Deloitte Tax Israel offices</p>
+            <div class="adress-1">
+                <p>
+                    <a href="https://www2.deloitte.com/il/en/footerlinks/office-locator/israel_office/tel_aviv.html">
+                        Tel Aviv Main Office
+                    </a>
+                    <br>
+                    1 Azrieli Center
+                    <br>
+                    P.O.B. 16593
+                    <br>
+                    Tel Aviv
+                    <br>
+                    Israel, 6701101
+                    <br>
+                </p>
+            </div>
+            <div>
+                <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html">View
+                    Map
+                </a>
+                <p>+972 (3) 608 5555</p>
+            </div>
+            <div class="adress-2">
+                <p>
+                    <a href="https://www2.deloitte.com/il/en/footerlinks/office-locator/israel_office/haifa_office.html">Haifa
+                    </a>
+                    <br>
+                    5 Ma'aleh Hashichrur
+                    <br>
+                    P.O.B. 5648
+                    <br>
+                    Haifa
+                    <br>
+                    Israel, 3105502
+                </p>
+            </div>
+            <div>
+                <a href="https://www.google.com/maps?f=q&source=s_q&hl=en&geocode&authuser=0&q=5+Ma%27ale+Shichrur&aq&vps=2&jsv=490b&sll=32.074309,34.792245&sspn=0.007864,0.009645&vpsrc=0&ie=UTF8&ct=clnk&cd=1&spell=1">View
+                    Map
+                </a>
+                <p>+972 (3) 608 5555</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">First name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="name">Last name:</label>
+            <input type="text" id="last" name="name" required>
+
+            <label for="email">Email adress:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="name">Phone number:</label>
+            <input type="number" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="social">
+        <h2>Social media</h2>
+        <div class="box">
+        <p>
+            <a href="https://www.instagram.com/lifeatdeloitteisrael/channel/">
+                Instagram
+            </a>
+        </p>
+        </div>
+        <div class="box">
+            <p>
+                <a href="https://www.linkedin.com/company/deloitte/posts/?feedView=all">
+                    Linkedin
+                </a>
+            </p>
+        </div>
+        <div class="box">
+            <p>
+                <a href="https://www.facebook.com/deloitteisrael">
+                    Facebook
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

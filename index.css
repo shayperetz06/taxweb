@@ -1,0 +1,119 @@
+.body {
+    background-color: #f9f9f9;
+    display: grid;
+}
+
+.contents {
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: white;
+}
+
+.content-1 {
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 30px;
+    width: 450px;
+    display: inline-block;
+    font-family: "Sofia", sans-serif;
+}
+
+.content-2 {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    display: inline-block;
+    font-family: "Sofia", sans-serif;
+    float: right;
+}
+
+.content-3,.content-5,.content-7 {
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 30px;
+    width: 400px;
+    display: inline-block;
+    font-family: "Sofia", sans-serif;
+    float: left;
+    margin-top: 100px;
+}
+
+.content-4,.content-6{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #fff;
+    width: 400px;
+    display: inline-block;
+    font-family: "Sofia", sans-serif;
+    float: right;
+}
+
+.content-8{
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 750px;
+    width: 400px;
+    display: inline-block;
+    font-family: "Sofia", sans-serif;
+    margin-top: 120px;
+}
+
+.div-1 {
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+.div-1 p {
+    width: 600px;
+}
+
+.title {
+    background-color: #f9f9f9;
+    display: grid;
+    font-family: "Sofia", sans-serif;
+}
+
+.img-1 {
+    width: 300px;
+    margin-left: 300px;
+    border-radius: 8px;
+    transform: rotate(5deg);
+}
+
+.img-2,.img-4,.img-6{
+    margin-left: 50px;
+    width: 350px;
+    border-radius: 8px;
+    transform: rotate(-5deg);
+    margin-top: 100px;
+    float: left;
+}
+
+
+.img-3,.img-5 {
+    width: 350px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+    border-radius: 8px;
+    transform: rotate(5deg);
+}
+
+.img-7 {
+    width: 350px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+    border-radius: 8px;
+    transform: rotate(5deg);
+    display: inline-block;
+}
+
+.content-1,.content-2,.content-3,.content-4,.content-5,.content-6,.content-7,.content-8 p {
+    font-size: 20px;
+    font-family: "Sofia", sans-serif;
+}
+
+
